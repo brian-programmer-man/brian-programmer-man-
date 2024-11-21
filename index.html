@@ -45,6 +45,7 @@
 
       }
         header{
+          animation: fadeanim 5 linear;
           color: orangered;
           text-align: center;
           line-height: 1px;
@@ -57,6 +58,14 @@
         footer{
           color: gray;
         }
+      @keyframes fadeanim{
+from{color:black;
+     letter-spacing: 3px;
+opacity: 0;
+}to{color:orangered;
+    
+}
+      }
       @keyframes startanim{
         from{
           margin: 0;
