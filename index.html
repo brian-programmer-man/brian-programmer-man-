@@ -27,6 +27,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
         .img-cont{
+          animation: startanim .2s linear;
           font-family: verdana;
           width: 300px;
           height: 250px;
@@ -56,6 +57,19 @@
         footer{
           color: gray;
         }
+      @keyframes startanim{
+        from{
+          margin: 0;
+          padding: 0;
+          height: 100px;
+          width: 100px;
+          }to{
+          width: 300px;
+          height: 250px;
+          margin: 10px;
+          padding: auto;
+      }
+            } 
     </style>
 </head>
 <body>
